@@ -131,12 +131,7 @@ hr {
     font-weight: bold;
     font-size: 22px;
     color: #1D1D1D;
-    margin-bottom: 94px;
-}
-
-.text1 img {
-    border-radius: 111px;
-    margin-bottom: 10px;
+    margin-bottom: 80px;
 }
 
 .imgofftop {
@@ -167,13 +162,12 @@ hr {
     font-weight: bold;
     font-size: 22px;
     color: #1D1D1D;
-    margin-bottom: 94px;
+    margin-bottom: 80px;
 }
 
 .lox{
     border: 2px solid white;
     border-radius: 111px;
-    margin-bottom: 10px;
 }
 
 .border:hover .lox {
@@ -181,6 +175,8 @@ hr {
 }
 
 .border {
+    width: 360px;
+    height: 540px;
     background: white;
 }
 
