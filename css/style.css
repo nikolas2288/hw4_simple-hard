@@ -5,49 +5,41 @@
 }
 
 hr {
+    margin: 96px auto 30px auto;
     background: #2C4058;
     width: 100px;
-    margin: 0 auto;
 }
 
 .wrapper {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 44px;
+    
     color: #2C4058;
     text-align: center;
     margin: 30px 0 80px 0;
 }
 
-.one {
-    height: 450px;
-}
-
 .one img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
 }
 
-.three,
-.two {
-    height: 210px;
-}
-
-.three img,
 .two img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
 }
 
-.imgbutton{
-    margin-bottom: 26px;
+.three img {
+    max-width: 100%;
 }
 
 .button {
     text-align: center;
     margin-top: 114px;
     margin-bottom: 100px;
+}
+
+.imgbutton {
+    margin-bottom: 25px;
 }
 
 .button input{
@@ -61,17 +53,17 @@ hr {
     padding: 17px 61px;
     cursor: pointer;
     color: #2C4058;
+    transition: 1s;
 }
 
 .button input:hover {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 2px 3px black;
+    box-shadow: 0px 4px 4px black;
     color: white;
     background: #2C4058;
 }
 
-
 /* hard */
-
 
 .text {
     position: absolute;
@@ -92,26 +84,8 @@ hr {
     color: #FFFFFF;
 }
 
-.photo {
-    height: 540px;
-}
-
 .photo img {
-    height: 100%; 
-    width: 100%;
-}
-
-/* .gradient {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 20.31%, #000000 100%);
-} */
-
-.testalign {
-    height: 251px;
-}
-
-.testalign img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
 }
 
 .text1{
@@ -131,17 +105,12 @@ hr {
     font-weight: bold;
     font-size: 22px;
     color: #1D1D1D;
-    margin-bottom: 80px;
+    margin-bottom: 75px;
 }
 
 .imgofftop {
+    max-width: 100%;
     margin-top: 30px;
-    height: 251px;
-}
-
-.imgofftop img {
-    width: 100%;
-    height: 100%;
 }
 
 .text2 {
@@ -154,7 +123,6 @@ hr {
     font-weight: 300;
     font-size: 12px;
     color: #818181;
-
 }
 
 .text2 p {
@@ -162,31 +130,48 @@ hr {
     font-weight: bold;
     font-size: 22px;
     color: #1D1D1D;
-    margin-bottom: 80px;
+    margin-bottom: 75px;
+}
+.testalign1 img{
+    max-width: 100%;
+}
+.testalign img {
+    max-width: 100%;
+}
+
+.border {
+    margin-top: 15px;
 }
 
 .lox{
+    margin: 10px auto 10px auto;
     border: 2px solid white;
     border-radius: 111px;
 }
 
 .border:hover .lox {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px black;
 }
 
-.border {
-    width: 360px;
-    height: 540px;
-    background: white;
-}
 
 .border:hover{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 5px black;
     background: #2C4058;
     cursor: pointer;
 }
 
 .border:hover h6,
 .border:hover p{
+    color: white;
+}
+
+.border1:hover { 
+    box-shadow: 5px 5px 5px black;
+    background: #2C4058;
+    cursor: pointer;
+}
+
+.border1:hover h6,
+.border1:hover p{
     color: white;
 }
